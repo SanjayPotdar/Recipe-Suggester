@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
                 selectedIngredients.contains("Green Chili") &&
                 selectedIngredients.contains("Garlic") &&
                 selectedIngredients.contains("Cumin") &&
-                selectedIngredients.contains("Turmeric")){
+                selectedIngredients.contains("Turmeric")) {
             return "Here's a recipe for Aloo Tamatar ki Sabzi using the ingredients you provided:\n" +
                     "\n" +
                     "Ingredients:\n" +
@@ -196,6 +196,37 @@ public class MainActivity extends AppCompatActivity {
                     "9. Adjust salt if needed and serve hot with roti or rice.\n" +
                     "\n" +
                     "Enjoy your delicious Aloo Tamatar ki Sabzi!\n";
+
+        } else if (selectedIngredients.contains("Potatoes") &&
+                selectedIngredients.contains("Onion") &&
+                selectedIngredients.contains("Green Chili") &&
+                selectedIngredients.contains("Garlic") &&
+                selectedIngredients.contains("Cumin") &&
+                selectedIngredients.contains("Turmeric")){
+            return "Here's a recipe for Aloo ki Sabzi using the ingredients you provided:\n" +
+                    "\n" +
+                    "Ingredients:\n" +
+                    "- 3 medium-sized potatoes, peeled and diced into small cubes\n" +
+                    "- 1 medium-sized onion, finely chopped\n" +
+                    "- 2 green chilies, chopped\n" +
+                    "- 2-3 garlic cloves, minced\n" +
+                    "- 1 teaspoon cumin seeds\n" +
+                    "- 1/2 teaspoon turmeric powder\n" +
+                    "- Salt, to taste\n" +
+                    "- Water, as needed\n" +
+                    "- 2 tablespoons oil\n" +
+                    "\n" +
+                    "Instructions:\n" +
+                    "1. Heat oil in a pan over medium heat. Add cumin seeds and allow them to splutter.\n" +
+                    "2. Add chopped onions and sauté until they turn golden brown.\n" +
+                    "3. Add chopped green chilies and minced garlic. Saute for a few seconds.\n" +
+                    "4. Add turmeric powder and salt, and mix well.\n" +
+                    "5. Add diced potatoes and mix everything together.\n" +
+                    "6. Cover the pan and let the potatoes cook on low to medium heat for about 10-15 minutes, stirring occasionally.\n" +
+                    "7. Once the potatoes are cooked and tender, adjust salt if needed.\n" +
+                    "8. Serve hot with roti or rice.\n" +
+                    "\n" +
+                    "Enjoy your delicious Aloo ki Sabzi!\n";
 
         } else if (selectedIngredients.contains("Cauliflower") &&
                 selectedIngredients.contains("Green Chili") &&
