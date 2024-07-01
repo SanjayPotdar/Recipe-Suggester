@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="588dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#FC4912"
+        android:text="Reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/suggestRecipeButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/suggestRecipeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#FD4912"
+        android:text="Suggest Recipe"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item9CheckBox" />
+
+    <CheckBox
+        android:id="@+id/item8CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="307dp"
+        android:text="Eggplant"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item9CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item6CheckBox" />
+
+    <CheckBox
+        android:id="@+id/item6CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="323dp"
+        android:text="Cumin"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item8CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item7CheckBox" />
+
+    <CheckBox
+        android:id="@+id/item7CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="307dp"
+        android:text="Turmeric"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item6CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item5CheckBox" />
+
+    <CheckBox
+        android:id="@+id/item5CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="295dp"
+        android:text="Green Chili"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item7CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item4CheckBox" />
+
+    <CheckBox
+        android:id="@+id/item4CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="327dp"
+        android:text="Onion"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item5CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item3CheckBox" />
+
+    <CheckBox
+        android:id="@+id/item3CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="315dp"
+        android:text="Tomato"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item4CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item2CheckBox" />
+
+    <CheckBox
+        android:id="@+id/item2CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="293dp"
+        android:text="Cauliflower"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item3CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item1CheckBox"
+        app:useMaterialThemeColors="true" />
+
+    <CheckBox
+        android:id="@+id/item1CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="307dp"
+        android:text="Potatoes"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/item2CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/item9CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="326dp"
+        android:layout_marginBottom="18dp"
+        android:text="Garlic"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/suggestRecipeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item8CheckBox" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="142dp"
+        android:text="RECIPE SUGGESTER"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
