@@ -6,7 +6,7 @@
 The Recipe App is an Android application that helps users discover and cook delicious meals by selecting available ingredients. It's designed to make cooking easier and more enjoyable, trying recipes right from their Android device.
 
 ### Download the APK
-To download and install the APK directly on your Android device, click [here](https://github.com/yourusername/Recipe-Suggester/releases/download/v1.0/RecipeApp.apk).
+To download and install the APK directly on your Android device, click [here](https://github.com/SanjayPotdar/Recipe-Suggester/releases/download/v1.0/Recipe.App.apk).
 
 ## Features
 - Select multiple ingredients from a list of available options.
@@ -35,9 +35,8 @@ To download and install the APK directly on your Android device, click [here](ht
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/SanjayPotdar/Recipe-Suggester.git
    ```
-   
 2. **Open the project in Android Studio:**
    
 3. **Build and run the app on your Android device or emulator.**
